@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kamruzzaman Ontar - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for social icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="logo">Kamruzzaman</div>
+            
+            <!-- Hamburger Menu -->
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            
+            <!-- Navigation Links -->
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#hobbies" class="nav-link">Hobbies</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Kamruzzaman Ontar</h1>
+            <p class="hero-tagline">BBA Student | Aspiring Business Analyst & Marketer</p>
+            <button class="cta-button" onclick="document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })">
+                Contact Me
+            </button>
+        </div>
+        <!-- Animated background shapes -->
+        <div class="hero-shape shape-1"></div>
+        <div class="hero-shape shape-2"></div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <p class="about-text">
+                    I'm a BBA student at American International University-Bangladesh (AIUB), passionate about 
+                    business analysis and marketing. I'm eager to apply analytical thinking and creative solutions 
+                    to real-world business challenges. With a strong focus on personal growth, I'm continuously 
+                    developing my skills in data analysis, market research, and strategic thinking.
+                </p>
+                <p class="about-text">
+                    My journey focuses on bridging the gap between business strategy and execution, with a keen 
+                    interest in understanding consumer behavior and market dynamics.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-grid">
+                <!-- Business Analysis -->
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Business Analysis</h3>
+                    <p>Data interpretation and strategic insights</p>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 75%;"></div>
+                    </div>
+                    <span class="progress-text">75%</span>
+                </div>
+
+                <!-- Marketing -->
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-bullhorn"></i>
+                    </div>
+                    <h3>Marketing</h3>
+                    <p>Digital marketing and brand strategy</p>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 80%;"></div>
+                    </div>
+                    <span class="progress-text">80%</span>
+                </div>
+
+                <!-- Problem Solving -->
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <h3>Problem Solving</h3>
+                    <p>Analytical and creative solutions</p>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 85%;"></div>
+                    </div>
+                    <span class="progress-text">85%</span>
+                </div>
+
+                <!-- Communication -->
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <h3>Communication</h3>
+                    <p>Clear and effective messaging</p>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 82%;"></div>
+                    </div>
+                    <span class="progress-text">82%</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hobbies Section -->
+    <section id="hobbies" class="hobbies">
+        <div class="container">
+            <h2 class="section-title">Hobbies & Interests</h2>
+            <div class="hobbies-grid">
+                <!-- Basketball -->
+                <div class="hobby-card">
+                    <div class="hobby-icon">
+                        <i class="fas fa-basketball"></i>
+                    </div>
+                    <h3>Basketball</h3>
+                    <p>Passion for teamwork and competition</p>
+                </div>
+
+                <!-- Table Tennis -->
+                <div class="hobby-card">
+                    <div class="hobby-icon">
+                        <i class="fas fa-table-tennis"></i>
+                    </div>
+                    <h3>Table Tennis</h3>
+                    <p>Strategy and quick reflexes</p>
+                </div>
+
+                <!-- Movies -->
+                <div class="hobby-card">
+                    <div class="hobby-icon">
+                        <i class="fas fa-film"></i>
+                    </div>
+                    <h3>Watching Movies</h3>
+                    <p>Storytelling and entertainment</p>
+                </div>
+
+                <!-- Traveling -->
+                <div class="hobby-card">
+                    <div class="hobby-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3>Traveling</h3>
+                    <p>Exploring new cultures and experiences</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Extracurricular Activities Section -->
+    <section id="activities" class="activities">
+        <div class="container">
+            <h2 class="section-title">Extracurricular Activities</h2>
+            <div class="activities-grid">
+                <!-- Photography -->
+                <div class="activity-card">
+                    <div class="activity-icon">
+                        <i class="fas fa-camera"></i>
+                    </div>
+                    <h3>Photography</h3>
+                    <p>Capturing moments and perspectives through the lens</p>
+                </div>
+
+                <!-- Cinematography -->
+                <div class="activity-card">
+                    <div class="activity-icon">
+                        <i class="fas fa-video"></i>
+                    </div>
+                    <h3>Cinematography</h3>
+                    <p>Creating visual stories and compelling videos</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <!-- Project Card 1 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-project-diagram"></i>
+                    </div>
+                    <h3>Market Analysis Project</h3>
+                    <p>
+                        A comprehensive analysis of emerging market trends in the technology sector. 
+                        Includes data visualization and strategic recommendations.
+                    </p>
+                    <button class="project-btn">View Details</button>
+                </div>
+
+                <!-- Project Card 2 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-chart-pie"></i>
+                    </div>
+                    <h3>Consumer Behavior Study</h3>
+                    <p>
+                        An in-depth study on consumer purchasing patterns and preferences. 
+                        Features infographics and actionable insights for businesses.
+                    </p>
+                    <button class="project-btn">View Details</button>
+                </div>
+
+                <!-- Project Card 3 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-marketing"></i>
+                    </div>
+                    <h3>Digital Marketing Campaign</h3>
+                    <p>
+                        A multi-channel marketing campaign strategy with social media integration 
+                        and performance metrics analysis.
+                    </p>
+                    <button class="project-btn">View Details</button>
+                </div>
+
+                <!-- Project Card 4 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h3>Business Strategy Model</h3>
+                    <p>
+                        Development of a business strategy framework for startups in South Asia. 
+                        Includes case studies and implementation guidelines.
+                    </p>
+                    <button class="project-btn">View Details</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="contact-subtitle">Feel free to reach out for any inquiries or collaborations</p>
+            
+            <div class="contact-content">
+                <!-- Email -->
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <p>kamruzzaman@example.com</p>
+                </div>
+
+                <!-- Phone -->
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <p>+880 1XX-XXXXX</p>
+                </div>
+
+                <!-- Location -->
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <p>Dhaka, Bangladesh</p>
+                </div>
+            </div>
+
+            <!-- Social Media Icons -->
+            <div class="social-links">
+                <a href="https://facebook.com" target="_blank" class="social-icon" title="Facebook">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a href="https://linkedin.com" target="_blank" class="social-icon" title="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://github.com" target="_blank" class="social-icon" title="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2026 Kamruzzaman Ontar. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
